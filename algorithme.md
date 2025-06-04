@@ -3,7 +3,6 @@ Début
 		Lire mot
 		nb_caractere <- nbCar(mot)
 		palindrome <- vrai
-
 		Pour chaque lettre à l'indice i de mot
 			Si  mot[i] != mot[nb_caractere -i]
 				palindrome <- faux
