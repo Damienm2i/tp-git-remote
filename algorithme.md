@@ -1,5 +1,5 @@
 Début
-	Procédure estUnPalindrome()
+	Fonction estUnPalindrome(mot)
 		Lire mot
 		nb_caractere <- nbCar(mot)
 		palindrome <- vrai
@@ -10,9 +10,9 @@ Début
 			FinSi
 		FinPour
 		Si palindrome <- vrai Alors
-			Afficher "Ce mot est un palindrome"
+			Retourner "Ce mot est un palindrome"
 		Sinon
-			Afficher "Ce mot n'est pas un palindrome"
+			Retourner "Ce mot n'est pas un palindrome"
 		FinSi
 	FinProcédure
 Fin
